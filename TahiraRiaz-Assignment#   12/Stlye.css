@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 12px;}
+    h1 {
+    font-size: 200%;}
+    h2 {
+    font-size: 1.3em;}
+h1 {
+    color: #e70c0c;
+}
+h2 {
+    color: #12e482;
+}
+    body {
+        font-family: Georgia, Times, serif;}
+        h1, h2 {
+        font-family: Arial, Verdana, sans-serif;}
+        .credits {
+        font-family: "Courier New", Courier,
+        monospace;}
+
+        .credits {
+            font-weight: bold;}
+
+            .credit {
+                font-style: italic;}
+
+                h3 {
+                    text-transform: uppercase;}
+                    h4 {
+                    text-transform: lowercase;}
+                    h5 {
+                    text-transform: capitalize;}
+
+                    
+                            h1 {
+                                text-decoration: overline;
+                              }
+                              
+                              h2 {
+                                text-decoration: line-through;
+                              }
+                              
+                              h3 {
+                                text-decoration: underline;
+                              }
+                              
+                              h4 {
+                                text-decoration: underline overline;
+                              }
+                              p {
+                                line-height: 1.4em;}
+                                h2 h3 {
+                                    text-transform: uppercase;
+                                    letter-spacing: 1.2em;}
+                                    .credits {
+                                    font-weight: bold;
+                                    word-spacing: 3em;}
+
+                                    h1 {
+                                        text-align: left;}
+                                        p {
+                                        text-align: justify;}
+                                        .credits {
+                                        text-align: right;}
+
+                                        
+                                        p.intro:first-letter {
+                                            font-size: 200%;}
+                                            p.intro:first-line {
+                                            font-weight: bold;}
+
+                                            a:link {
+                                                color: deeppink;
+                                                text-decoration: none;}
+                                                a:visited {
+                                                color: black;}
+                                                a:hover {
+                                                color: rgb(75, 13, 219);
+                                                text-decoration: underline;}
+                                                a:active {
+                                                color: rgb(250, 148, 14);}

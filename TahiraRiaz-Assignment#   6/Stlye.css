@@ -1,0 +1,15 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(205, 240, 228);
+    font-style: italic;
+    font-weight: 500;
+}
+p{
+    color: #f80c0c;
+}
+h1{
+    color: #091702;
+}
+li{
+    color: #4706fb;
+}

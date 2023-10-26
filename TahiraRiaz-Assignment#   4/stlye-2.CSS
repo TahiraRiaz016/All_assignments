@@ -1,0 +1,52 @@
+* {
+    property : value;
+ }
+ * {
+    margin : 0px;
+    padding : 0px;
+ }
+        p {
+            color: blue;
+        }
+        h1{
+            color: brown;
+        }
+
+        /* All <a> elements. */
+a {
+    color: red;
+  }
+  element { style properties }
+  
+  span {
+    background-color: skyblue;
+  }
+
+  /* All elements with class="spacious" */
+.spacious {
+    margin: 2em;
+  }
+  
+  /* All <li> elements with class="spacious" */
+  li.spacious {
+    margin: 2em;
+  }
+  
+  /* All <li> elements with a class list that includes both "spacious" and "elegant" */
+  /* For example, class="elegant retro spacious" */
+  li.spacious.elegant {
+    margin: 2em;
+  }
+/* The element with id="demo" */
+#demo {
+    border: red 2px solid;
+  }
+  #identified {
+    background-color: skyblue;
+  }
+
+  /* Paragraphs that are siblings of and
+   subsequent to any image */
+img ~ p {
+    color: red;
+  }
