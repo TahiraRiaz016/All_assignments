@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information Form</title>
+</head>
+<body>
+<style>
+    input {
+                    font-size: 120%;
+                    color: #5a5854;
+                    background-color: #f2f2f2;
+                    border: 1px solid #bdbdbd;
+                    border-radius: 5px;
+                    padding: 5px 5px 5px 30px;
+                    background-repeat: no-repeat;
+                    background-position: 8px 9px;
+                    display: block;
+                    margin-bottom: 10px;}
+                    input:focus {
+                    background-color: #ffffff;
+                    border: 1px solid #b1e1e4;}
+                    input#email {
+                    background-image: url("images/email.png");}
+                    input#twitter {
+                    background-image: url("images/twitter.png");}
+                    input#web {
+                    background-image: url("images/web.png");}
+</style>
+<h2>Personal Information</h2>
+<fieldset>
+<form>
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required><br><br>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone"><br><br>
+
+    <label for="gender">Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label><br><br>
+
+    <label for="birthdate">Date of Birth:</label>
+    <input type="date" id="birthdate" name="birthdate"><br><br>
+
+    <label for="City">City:</label>
+    <select id="City" name="City">
+        <option value="Karachi">Karachi</option>
+        <option value="Lahoor">Lahoor</option>
+        <option value="Islamabad">Islamabad</option>
+        <option value="other">other</option>
+    </select><br><br>
+
+    <label for="comments">Additional Comments:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+</fieldset>
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+<style>
+    input {
+                    font-size: 120%;
+                    color: #5a5854;
+                    background-color: #f2f2f2;
+                    border: 1px solid #bdbdbd;
+                    border-radius: 5px;
+                    padding: 5px 5px 5px 30px;
+                    background-repeat: no-repeat;
+                    background-position: 8px 9px;
+                    display: block;
+                    margin-bottom: 10px;}
+                    input:focus {
+                    background-color: #ffffff;
+                    border: 1px solid #b1e1e4;}
+                    input#email {
+                    background-image: url("images/email.png");}
+                    input#twitter {
+                    background-image: url("images/twitter.png");}
+                    input#web {
+                    background-image: url("images/web.png");}
+</style>
+    
+   <fieldset>
+        <form action="">
+            <p>First Name:
+             <input type="text" name="First Name" />
+            </p>
+
+            <p> Last Name:
+                <input type="text" name="Last Name" />
+               </p>
+               <label>Age: <input type="text" name="age" /></label>
+               <br/ >
+               Gender:
+               <input id="female" type="radio" name="gender"
+               value="f">
+               <label for="female">Female</label>
+               <input id="male" type="radio" name="gender"
+               value="m">
+               <label for="male">Male</label>
+               
+               <p>Email:
+<input type="email" name="email" / > <br>
+(Your email address will be your username)
+
+</p>
+<p>Re-type Email:
+    <input type="email" name="email"/ > <br>
+
+    </p>
+            <p>Re-type Password:
+             <input type="password" name="password" />
+            </p>
+            <p>Password:
+                <input type="password" name="password" />
+               </p>
+               
+               <p>Address:
+                <input type="text" Address="Address" />
+               </p>
+ <p>city:
+    <input type="text" name="city" />
+   </p>
+
+   <p> State:
+   <select>
+        <option value="chosse a your state">Chosse a your state </option>
+       <option value="karachi">karachi </option>
+       <option value="larhor">larhor</option>
+       <option value="islamabad">islamabad</option>
+    </select>
+</p>
+</form>
+        
+</fieldset>
+
+
+<div class="container">
+    <h2>Web Developer Information</h2>
+    <form action="process_web_developer_data.php" method="post">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+        </div>
+
+        <div class="form-group">
+            <label for="skills">Skills (comma-separated):</label>
+            <input type="text" id="skills" name="skills">
+        </div>
+
+        <div class="form-group">
+            <label for="experience">Years of Experience:</label>
+            <input type="number" id="experience" name="experience">
+        </div>
+
+        <div class="form-group">
+            <label for="portfolio">Portfolio URL:</label>
+            <input type="url" id="portfolio" name="portfolio">
+        </div>
+
+        <div class="form-group">
+            <label for="github">GitHub Profile:</label>
+            <input type="url" id="github" name="github">
+        </div>
+
+        <div class="form-group">
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+    <script src="./apps.js"></script>
+</body>
+</html>

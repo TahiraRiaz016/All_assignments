@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Structure </h1>
+    <form action=""
+method="get">
+<p>This is where the form controls will appear.
+ </p>
+</form>
+<h1>Text  Input</h1>
+<form action="">
+    <p>Username:
+     <input type="text" name="username" size="15"
+     maxlength="30" />
+    </p>
+    </form>
+    <h1>Password Input </h1>
+    <form action="">
+        <p>Username:
+         <input type="text" name="username" size="15"
+         maxlength="30" />
+        </p>
+        <p>Password:
+         <input type="password" name="password" size="15"
+         maxlength="30" />
+        </p>
+        </form>
+        <h1>Text Are </h1>
+        <form action="http://www.example.com/comments.php">
+            <p>What did you think of this gig?</p>
+             <textarea name="comments" cols="20" rows="4">Enter
+             your comments...</textarea>
+            </form>
+            <h1>Radio Button </h1>
+            <form action="http://www.example.com/profile.php">
+                <p>Please select your favorite genre:
+                 <br />
+                 <input type="radio" name="genre" value="rock"
+                 checked="checked" /> Rock
+                 <input type="radio" name="genre" value="pop" />
+                 Pop
+                 <input type="radio" name="genre" value="jazz" />
+                 Jazz
+                </p>
+                </form>
+<h1>Checkbox</h1>   
+<form action="">
+    <p>Please select your favorite music service(s):
+     <br />
+     <input type="checkbox" name="service"
+     value="itunes" checked="checked" /> iTunes
+     <input type="checkbox" name="service"
+     value="lastfm" /> Last.fm
+     <input type="checkbox" name="service"
+     value="spotify" /> Spotify
+    </p>
+    </form>
+    <h1>Drop Down List Box </h1>  
+    <form action="">
+        <p>What device do you listen to music on?</p>
+        <select name="devices">
+         <option value="ipod">iPod</option>
+         <option value="radio">Radio</option>
+         <option value="computer">Computer</option>
+         </select>
+        </form>           
+
+<h1>Multiple Selet Box</h1>
+<form action="">
+    <p>Do you play any of the following instruments?
+     (You can select more than one option by holding
+     down control on a PC or command key on a Mac
+     while selecting different options.)</p>
+    <select name="instruments" size="3"
+     multiple="multiple">
+     <option value="guitar" selected="selected">
+     Guitar</option>
+     <option value="drums">Drums</option>
+     <option value="keyboard"
+     selected="selected">Keyboard</option>
+     <option value="bass">Bass</option>
+    </select>
+    </form>
+    <h1>File Input Box </h1>
+    <form action=""
+method="post">
+<p>Upload your song in MP3 format:</p>
+<input type="file" name="user-song" /><br />
+<input type="submit" value="Upload" />
+</form>
+<h1>Submit Button </h1>
+<form action="">
+    <p>Subscribe to our email list:</p>
+    <input type="text" name="email" />
+    <input type="submit" name="subscribe"
+     value="Subscribe" />
+    </form>
+    <h1>Image Button </h1>
+    <form action="http://www.example.org/subscribe.php">
+        <p>Subscribe to our email list:</p>
+         <input type="text" name="email" />
+         <input type="image" src="./images/360_F_28279558_SqNXoZWsQLfWYVxyKe9hVzZ49dJtKLsc.jpg"
+         width="60" height="auto" />
+        </form>
+        <h1>Button & hidden
+            Controls</h1>
+            <form action="http://www.example.com/add.php">
+                <button><img src="./images/tttttttttt.jpg" alt="add"
+                 width="80" height="auto" /> Add</button>
+                <input type="hidden" name="bookmark"
+                 value="lyrics" />
+                </form>
+        </body>
+</html>

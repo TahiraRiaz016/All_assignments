@@ -1,0 +1,145 @@
+ol {
+    list-style-type: lower-roman;}
+
+    /* ol {
+        list-style-type: none;} */
+
+        /* ol {
+            list-style-type: disc;} */
+
+
+            /* ol {
+                list-style-type: circle;} */
+
+                /* ol {
+                    list-style-type: square;} */
+
+
+                    /* ol {
+                        list-style-type: lower-roman;} */
+
+
+                        /* ol {
+                            list-style-type: decimal;}
+     */
+
+     /* ol {
+                            list-style-type: decimal-leading-zero
+                            ;}
+     */
+
+     /* ol {
+                            list-style-type: lower-alpha
+                            ;} */
+    
+
+     /* ol {
+                            list-style-type: upper-alpha
+                            ;} */
+    
+     /* ol {
+                            list-style-type: upper-roman
+                            ;} */
+    
+     /* ol {
+                            list-style-type: lower-roman
+;} */
+    
+/* --------------------Images for Bullets
+list-style-image ------------------*/
+
+/* ul {
+    list-style-image: url("./images/download.jpeg " ) ;}
+     
+    li {
+    margin: 10px 0px 0px 0px;} */
+
+    
+    /* <!------------Positioning the Marker list-style-position----------------> */
+
+    /* ul {
+        width: 150px;}
+        li {
+        margin: 10px;}
+        ul.illuminations {
+        list-style-position: outside;}
+        ul.season {
+        list-style-position: inside;} */
+
+        /* <!------------ List Shorthand list-style---------------> */
+
+/* ul {
+    list-style: inside circle;
+    width: 300px;}
+    li {
+    margin: 10px 0px 0px 0px;} */
+
+    /* <!------------ Table Properties --------------> */
+
+
+    /* body {
+        font-family: Arial, Verdana, sans-serif;
+        color: #111111;}
+        table {
+        width: 600px;}
+        th, td {
+        padding: 7px 10px 10px 10px;}
+        th {
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-size: 90%;
+        border-bottom: 2px solid #111111;
+        border-top: 1px solid #999;
+        text-align: left;}
+        tr.even {
+        background-color: #efefef;}
+        tr:hover {
+        background-color: #c3e6e5;}
+        .money {
+        text-align: right;} */
+
+        /* <!------------ Border on Empty Cells empty-cells ---------> */
+/* 
+        td {
+            border: 1px solid #0088dd;
+            padding: 15px;}
+            table.one {
+            empty-cells: show;}
+            table.two {
+            empty-cells: hide;} */
+
+            
+            /* <!------------ Gaps Between Cell border-spacing, border-collapse  ---------> */
+
+            /* td {
+                background-color: #0088dd;
+                padding: 15px;
+                border: 2px solid #000000;}
+                table.one {
+                border-spacing: 5px 15px;}
+                table.two {
+                border-collapse: collapse;}
+
+                 */
+                /* <!------------ Styling Text Inputs  ---------> */
+
+                input {
+                    font-size: 120%;
+                    color: #5a5854;
+                    background-color: #f2f2f2;
+                    border: 1px solid #bdbdbd;
+                    border-radius: 5px;
+                    padding: 5px 5px 5px 30px;
+                    background-repeat: no-repeat;
+                    background-position: 8px 9px;
+                    display: block;
+                    margin-bottom: 10px;}
+                    input:focus {
+                    background-color: #ffffff;
+                    border: 1px solid #b1e1e4;}
+                    input#email {
+                    background-image: url("images/email.png");}
+                    input#twitter {
+                    background-image: url("images/twitter.png");}
+                    input#web {
+                    background-image: url("images/web.png");}
